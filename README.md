@@ -95,7 +95,7 @@ Unsolved problems are disabled test classes with a stub solution.
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) | Medium | [MinimumPathSumTest](src/test/java/org/overmind/MinimumPathSumTest.java) |  |
 | 65 | [Valid Number](https://leetcode.com/problems/valid-number/) | Hard | [ValidNumberTest](src/test/java/org/overmind/ValidNumberTest.java) |  |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [PlusOneTest](src/test/java/org/overmind/PlusOneTest.java) |  |
-| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [AddBinaryTest](src/test/java/org/overmind/AddBinaryTest.java) |  |
+| 67 | [Add Binary](https://leetcode.com/problems/add-binary/) | Easy | [AddBinaryTest](src/test/java/org/overmind/AddBinaryTest.java) | ✅ |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/) | Hard | [TextJustificationTest](src/test/java/org/overmind/TextJustificationTest.java) |  |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | Easy | [SqrtXTest](src/test/java/org/overmind/SqrtXTest.java) |  |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [ClimbingStairsTest](src/test/java/org/overmind/ClimbingStairsTest.java) |  |
