@@ -24,7 +24,7 @@ Requires JDK 25.
 
 ## Problems
 
-96 of 159 problems solved: 47 easy, 41 medium, 8 hard.
+97 of 220 problems solved: 47 easy, 42 medium, 8 hard.
 Unsolved problems are disabled test classes with a stub solution.
 
 | # | Problem | Difficulty | Solution | Solved |
@@ -129,20 +129,81 @@ Unsolved problems are disabled test classes with a stub solution.
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [ValidateBinarySearchTreeTest](src/test/java/org/overmind/ValidateBinarySearchTreeTest.java) |  |
 | 99 | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/) | Medium | [RecoverBinarySearchTreeTest](src/test/java/org/overmind/RecoverBinarySearchTreeTest.java) |  |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Easy | [SameTreeTest](src/test/java/org/overmind/SameTreeTest.java) |  |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Easy | [SymmetricTreeTest](src/test/java/org/overmind/SymmetricTreeTest.java) |  |
+| 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [BinaryTreeLevelOrderTraversalTest](src/test/java/org/overmind/BinaryTreeLevelOrderTraversalTest.java) |  |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Medium | [BinaryTreeZigzagLevelOrderTraversalTest](src/test/java/org/overmind/BinaryTreeZigzagLevelOrderTraversalTest.java) | ✅ |
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [MaximumDepthOfBinaryTreeTest](src/test/java/org/overmind/MaximumDepthOfBinaryTreeTest.java) | ✅ |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium | [ConstructBinaryTreeFromPreorderAndInorderTraversalTest](src/test/java/org/overmind/ConstructBinaryTreeFromPreorderAndInorderTraversalTest.java) | ✅ |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium | [ConstructBinaryTreeFromInorderAndPostorderTraversalTest](src/test/java/org/overmind/ConstructBinaryTreeFromInorderAndPostorderTraversalTest.java) |  |
+| 107 | [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | Medium | [BinaryTreeLevelOrderTraversalIITest](src/test/java/org/overmind/BinaryTreeLevelOrderTraversalIITest.java) |  |
+| 108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | Easy | [ConvertSortedArrayToBinarySearchTreeTest](src/test/java/org/overmind/ConvertSortedArrayToBinarySearchTreeTest.java) |  |
+| 109 | [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) | Medium | [ConvertSortedListToBinarySearchTreeTest](src/test/java/org/overmind/ConvertSortedListToBinarySearchTreeTest.java) |  |
+| 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Easy | [BalancedBinaryTreeTest](src/test/java/org/overmind/BalancedBinaryTreeTest.java) |  |
+| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | Easy | [MinimumDepthOfBinaryTreeTest](src/test/java/org/overmind/MinimumDepthOfBinaryTreeTest.java) |  |
+| 112 | [Path Sum](https://leetcode.com/problems/path-sum/) | Easy | [PathSumTest](src/test/java/org/overmind/PathSumTest.java) |  |
+| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | Medium | [PathSumIITest](src/test/java/org/overmind/PathSumIITest.java) |  |
+| 114 | [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium | [FlattenBinaryTreeToLinkedListTest](src/test/java/org/overmind/FlattenBinaryTreeToLinkedListTest.java) |  |
+| 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | Hard | [DistinctSubsequencesTest](src/test/java/org/overmind/DistinctSubsequencesTest.java) |  |
+| 116 | [Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | Medium | [PopulatingNextRightPointersInEachNodeTest](src/test/java/org/overmind/PopulatingNextRightPointersInEachNodeTest.java) |  |
+| 117 | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | Medium | [PopulatingNextRightPointersInEachNodeIITest](src/test/java/org/overmind/PopulatingNextRightPointersInEachNodeIITest.java) |  |
 | 118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | Easy | [PascalsTriangleTest](src/test/java/org/overmind/PascalsTriangleTest.java) | ✅ |
+| 119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [PascalsTriangleIITest](src/test/java/org/overmind/PascalsTriangleIITest.java) |  |
+| 120 | [Triangle](https://leetcode.com/problems/triangle/) | Medium | [TriangleTest](src/test/java/org/overmind/TriangleTest.java) |  |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [BestTimeToBuyAndSellStockTest](src/test/java/org/overmind/BestTimeToBuyAndSellStockTest.java) |  |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Medium | [BestTimeToBuyAndSellStockIITest](src/test/java/org/overmind/BestTimeToBuyAndSellStockIITest.java) | ✅ |
+| 123 | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | Hard | [BestTimeToBuyAndSellStockIIITest](src/test/java/org/overmind/BestTimeToBuyAndSellStockIIITest.java) |  |
+| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | Hard | [BinaryTreeMaximumPathSumTest](src/test/java/org/overmind/BinaryTreeMaximumPathSumTest.java) |  |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [ValidPalindromeTest](src/test/java/org/overmind/ValidPalindromeTest.java) |  |
+| 126 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | Hard | [WordLadderIITest](src/test/java/org/overmind/WordLadderIITest.java) |  |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | Hard | [WordLadderTest](src/test/java/org/overmind/WordLadderTest.java) |  |
+| 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [LongestConsecutiveSequenceTest](src/test/java/org/overmind/LongestConsecutiveSequenceTest.java) |  |
+| 129 | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | Medium | [SumRootToLeafNumbersTest](src/test/java/org/overmind/SumRootToLeafNumbersTest.java) |  |
+| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | Medium | [SurroundedRegionsTest](src/test/java/org/overmind/SurroundedRegionsTest.java) |  |
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [PalindromePartitioningTest](src/test/java/org/overmind/PalindromePartitioningTest.java) |  |
+| 132 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) | Hard | [PalindromePartitioningIITest](src/test/java/org/overmind/PalindromePartitioningIITest.java) |  |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | Medium | [CloneGraphTest](src/test/java/org/overmind/CloneGraphTest.java) |  |
+| 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Medium | [GasStationTest](src/test/java/org/overmind/GasStationTest.java) |  |
+| 135 | [Candy](https://leetcode.com/problems/candy/) | Hard | [CandyTest](src/test/java/org/overmind/CandyTest.java) |  |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [SingleNumberTest](src/test/java/org/overmind/SingleNumberTest.java) | ✅ |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | Medium | [SingleNumberIITest](src/test/java/org/overmind/SingleNumberIITest.java) |  |
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | Medium | [CopyListWithRandomPointerTest](src/test/java/org/overmind/CopyListWithRandomPointerTest.java) |  |
+| 139 | [Word Break](https://leetcode.com/problems/word-break/) | Medium | [WordBreakTest](src/test/java/org/overmind/WordBreakTest.java) |  |
+| 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | Hard | [WordBreakIITest](src/test/java/org/overmind/WordBreakIITest.java) |  |
+| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [LinkedListCycleTest](src/test/java/org/overmind/LinkedListCycleTest.java) |  |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [LinkedListCycleIITest](src/test/java/org/overmind/LinkedListCycleIITest.java) |  |
+| 143 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [ReorderListTest](src/test/java/org/overmind/ReorderListTest.java) |  |
+| 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | [BinaryTreePreorderTraversalTest](src/test/java/org/overmind/BinaryTreePreorderTraversalTest.java) |  |
+| 145 | [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/) | Easy | [BinaryTreePostorderTraversalTest](src/test/java/org/overmind/BinaryTreePostorderTraversalTest.java) |  |
+| 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [LRUCacheTest](src/test/java/org/overmind/LRUCacheTest.java) | ✅ |
+| 147 | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/) | Medium | [InsertionSortListTest](src/test/java/org/overmind/InsertionSortListTest.java) |  |
+| 148 | [Sort List](https://leetcode.com/problems/sort-list/) | Medium | [SortListTest](src/test/java/org/overmind/SortListTest.java) |  |
+| 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | Hard | [MaxPointsOnALineTest](src/test/java/org/overmind/MaxPointsOnALineTest.java) |  |
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [EvaluateReversePolishNotationTest](src/test/java/org/overmind/EvaluateReversePolishNotationTest.java) |  |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [ReverseWordsInAStringTest](src/test/java/org/overmind/ReverseWordsInAStringTest.java) |  |
+| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Medium | [MaximumProductSubarrayTest](src/test/java/org/overmind/MaximumProductSubarrayTest.java) |  |
+| 153 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [FindMinimumInRotatedSortedArrayTest](src/test/java/org/overmind/FindMinimumInRotatedSortedArrayTest.java) |  |
+| 154 | [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | Hard | [FindMinimumInRotatedSortedArrayIITest](src/test/java/org/overmind/FindMinimumInRotatedSortedArrayIITest.java) |  |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [MinStackTest](src/test/java/org/overmind/MinStackTest.java) | ✅ |
+| 160 | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Easy | [IntersectionOfTwoLinkedListsTest](src/test/java/org/overmind/IntersectionOfTwoLinkedListsTest.java) |  |
+| 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | Medium | [FindPeakElementTest](src/test/java/org/overmind/FindPeakElementTest.java) |  |
+| 164 | [Maximum Gap](https://leetcode.com/problems/maximum-gap/) | Medium | [MaximumGapTest](src/test/java/org/overmind/MaximumGapTest.java) |  |
+| 165 | [Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/) | Medium | [CompareVersionNumbersTest](src/test/java/org/overmind/CompareVersionNumbersTest.java) |  |
+| 166 | [Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | Medium | [FractionToRecurringDecimalTest](src/test/java/org/overmind/FractionToRecurringDecimalTest.java) |  |
+| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [TwoSumIIInputArrayIsSortedTest](src/test/java/org/overmind/TwoSumIIInputArrayIsSortedTest.java) |  |
 | 168 | [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | [ExcelSheetColumnTitleTest](src/test/java/org/overmind/ExcelSheetColumnTitleTest.java) | ✅ |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [MajorityElementTest](src/test/java/org/overmind/MajorityElementTest.java) | ✅ |
 | 171 | [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/) | Easy | [ExcelSheetColumnNumberTest](src/test/java/org/overmind/ExcelSheetColumnNumberTest.java) | ✅ |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | Medium | [FactorialTrailingZeroesTest](src/test/java/org/overmind/FactorialTrailingZeroesTest.java) | ✅ |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | Medium | [BinarySearchTreeIteratorTest](src/test/java/org/overmind/BinarySearchTreeIteratorTest.java) |  |
+| 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | Hard | [DungeonGameTest](src/test/java/org/overmind/DungeonGameTest.java) |  |
+| 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | Medium | [LargestNumberTest](src/test/java/org/overmind/LargestNumberTest.java) |  |
+| 187 | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/) | Medium | [RepeatedDNASequencesTest](src/test/java/org/overmind/RepeatedDNASequencesTest.java) |  |
+| 188 | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | Hard | [BestTimeToBuyAndSellStockIVTest](src/test/java/org/overmind/BestTimeToBuyAndSellStockIVTest.java) |  |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | Medium | [RotateArrayTest](src/test/java/org/overmind/RotateArrayTest.java) | ✅ |
+| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | Easy | [ReverseBitsTest](src/test/java/org/overmind/ReverseBitsTest.java) |  |
+| 191 | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) | Easy | [NumberOf1BitsTest](src/test/java/org/overmind/NumberOf1BitsTest.java) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [HouseRobberTest](src/test/java/org/overmind/HouseRobberTest.java) | ✅ |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | Medium | [BinaryTreeRightSideViewTest](src/test/java/org/overmind/BinaryTreeRightSideViewTest.java) |  |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [NumberOfIslandsTest](src/test/java/org/overmind/NumberOfIslandsTest.java) | ✅ |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | Easy | [HappyNumberTest](src/test/java/org/overmind/HappyNumberTest.java) | ✅ |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | Medium | [HouseRobberIITest](src/test/java/org/overmind/HouseRobberIITest.java) | ✅ |
