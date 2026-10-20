@@ -1,6 +1,5 @@
 package org.overmind;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -10,7 +9,6 @@ import static org.assertj.core.api.Assertions.assertThat;
  * <p>
  * Divide two integers without using multiplication, division or the mod operator.
  */
-@Disabled
 public class DivideTwoIntegersTest {
 
   private final Solution solution = new Solution();
@@ -35,9 +33,49 @@ public class DivideTwoIntegersTest {
       .isEqualTo(-2);
   }
 
+  @Test
+  void example3() {
+    // when
+    var result = solution.divide(-2147483648, -1);
+
+    // then
+    assertThat(result)
+      .isEqualTo(2147483647);
+  }
+
   class Solution {
     public int divide(int dividend, int divisor) {
-      throw new UnsupportedOperationException();
+      long result = 0;
+      boolean negative = (dividend < 0) ^ (divisor < 0);
+
+      long a = Math.abs((long) dividend);
+      long b = Math.abs((long) divisor);
+
+      int bitsA = 64 - Long.numberOfLeadingZeros(a);
+      int bitsB = 64 - Long.numberOfLeadingZeros(b);
+
+      for (int k = bitsA - bitsB; k >= 0; k--) {
+        long product = b << k;
+
+        if (product <= a) {
+          a = a - product;
+          result += 1L << k;
+        }
+      }
+
+      if (negative) {
+        result = -result;
+      }
+
+      if (result > Integer.MAX_VALUE) {
+        return Integer.MAX_VALUE;
+      }
+
+      if (result < Integer.MIN_VALUE) {
+        return Integer.MIN_VALUE;
+      }
+
+      return ((int) result);
     }
   }
 }

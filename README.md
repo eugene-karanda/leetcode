@@ -57,7 +57,7 @@ Unsolved problems are disabled test classes with a stub solution.
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [RemoveDuplicatesFromSortedArrayTest](src/test/java/org/overmind/RemoveDuplicatesFromSortedArrayTest.java) | ✅ |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) | Easy | [RemoveElementTest](src/test/java/org/overmind/RemoveElementTest.java) | ✅ |
 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | [FindTheIndexOfTheFirstOccurrenceInAStringTest](src/test/java/org/overmind/FindTheIndexOfTheFirstOccurrenceInAStringTest.java) |  |
-| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [DivideTwoIntegersTest](src/test/java/org/overmind/DivideTwoIntegersTest.java) |  |
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | Medium | [DivideTwoIntegersTest](src/test/java/org/overmind/DivideTwoIntegersTest.java) | ✅ |
 | 30 | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Hard | [SubstringWithConcatenationOfAllWordsTest](src/test/java/org/overmind/SubstringWithConcatenationOfAllWordsTest.java) |  |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | Medium | [NextPermutationTest](src/test/java/org/overmind/NextPermutationTest.java) |  |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | Hard | [LongestValidParenthesesTest](src/test/java/org/overmind/LongestValidParenthesesTest.java) |  |
