@@ -1,6 +1,5 @@
 package org.overmind;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -10,7 +9,6 @@ import static org.assertj.core.api.Assertions.assertThat;
  * <p>
  * Rearrange the array into the next lexicographically greater permutation in place.
  */
-@Disabled
 public class NextPermutationTest {
 
   private final Solution solution = new Solution();
@@ -56,7 +54,31 @@ public class NextPermutationTest {
 
   class Solution {
     public void nextPermutation(int[] nums) {
-      throw new UnsupportedOperationException();
+      int pivot = -1;
+
+      for (int left = nums.length - 1; left > 0 ; left--) {
+        if (nums[left - 1] < nums[left]) {
+          pivot = left - 1;
+          break;
+        }
+      }
+
+      if (pivot != -1) {
+        int right = nums.length - 1;
+        while (nums[right] <= nums[pivot]) {
+          right--;
+        }
+
+        int tmp = nums[pivot];
+        nums[pivot] = nums[right];
+        nums[right] = tmp;
+      }
+
+      for (int i = 0; i < (nums.length - pivot - 1) / 2 ; i++) {
+        int tmp = nums[pivot + 1 + i];
+        nums[pivot + 1 + i] = nums[nums.length - 1 - i];
+        nums[nums.length - 1 - i] = tmp;
+      }
     }
   }
 }
