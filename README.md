@@ -249,3 +249,4 @@ Unsolved problems are disabled test classes with a stub solution.
 | 1475 | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | Easy | [FinalPricesWithASpecialDiscountInAShopTest](src/test/java/org/overmind/FinalPricesWithASpecialDiscountInAShopTest.java) | ✅ |
 | 1861 | [Rotating the Box](https://leetcode.com/problems/rotating-the-box/) | Medium | [RotatingTheBoxTest](src/test/java/org/overmind/RotatingTheBoxTest.java) | ✅ |
 | 1929 | [Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Easy | [ConcatenationOfArrayTest](src/test/java/org/overmind/ConcatenationOfArrayTest.java) | ✅ |
+| 3863 | [Minimum Operations to Sort a String](https://leetcode.com/problems/minimum-operations-to-sort-a-string/) | Medium | [MinimumOperationsToSortAStringTest](src/test/java/org/overmind/MinimumOperationsToSortAStringTest.java) | ✅ |
