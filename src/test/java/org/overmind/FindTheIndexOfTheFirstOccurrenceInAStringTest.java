@@ -1,6 +1,5 @@
 package org.overmind;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -10,7 +9,6 @@ import static org.assertj.core.api.Assertions.assertThat;
  * <p>
  * Find the index of the first occurrence of {@code needle} in {@code haystack}, or -1.
  */
-@Disabled
 public class FindTheIndexOfTheFirstOccurrenceInAStringTest {
 
   private final Solution solution = new Solution();
@@ -36,8 +34,33 @@ public class FindTheIndexOfTheFirstOccurrenceInAStringTest {
   }
 
   class Solution {
+
     public int strStr(String haystack, String needle) {
-      throw new UnsupportedOperationException();
+      var n = haystack.length();
+      var m = needle.length();
+
+      var value = haystack.getBytes();
+      var str = needle.getBytes();
+
+      var first = needle.charAt(0);
+      int max = (n - m);
+      for (int i = 0; i <= max; i++) {
+        // Look for first character.
+        if (haystack.charAt(i) != first) {
+          while (++i <= max && value[i] != first);
+        }
+        // Found first character, now look at the rest of value
+        if (i <= max) {
+          int j = i + 1;
+          int end = j + m - 1;
+          for (int k = 1; j < end && value[j] == str[k]; j++, k++);
+          if (j == end) {
+            // Found whole string.
+            return i;
+          }
+        }
+      }
+      return -1;
     }
   }
 }

@@ -1,6 +1,5 @@
 package org.overmind;
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -10,7 +9,6 @@ import static org.assertj.core.api.Assertions.assertThat;
  * <p>
  * Search for {@code target} in a rotated sorted array in O(log n).
  */
-@Disabled
 public class SearchInRotatedSortedArrayTest {
 
   private final Solution solution = new Solution();
@@ -45,9 +43,59 @@ public class SearchInRotatedSortedArrayTest {
       .isEqualTo(-1);
   }
 
+  @Test
+  void example4() {
+    // when
+    var result = solution.search(new int[]{6, 0, 1, 2, 3, 4, 5}, 6);
+
+    // then
+    assertThat(result)
+      .isEqualTo(0);
+  }
+
+  @Test
+  void example5() {
+    // when
+    var result = solution.search(new int[]{5}, 5);
+
+    // then
+    assertThat(result)
+      .isEqualTo(0);
+  }
+
   class Solution {
     public int search(int[] nums, int target) {
-      throw new UnsupportedOperationException();
+      int n = nums.length, a = 0, b = n - 1, c, k;
+
+      while (a < b) {
+        int mid = a + (b - a) / 2;
+
+        if (nums[mid] > nums[b]) {
+          a = mid + 1;
+        } else {
+          b = mid;
+        }
+      }
+
+      k = a;
+      a = 0;
+      b = n - 1;
+
+      while (a < b) {
+        c = (a + b) / 2;
+
+        if (nums[(c + k) % n] >= target) {
+          b = c;
+        } else {
+          a = c + 1;
+        }
+      }
+
+      if (nums[(a + k) % n] == target) {
+        return (a + k) % n;
+      } else {
+        return -1;
+      }
     }
   }
 }
